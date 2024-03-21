@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+<title>electricity</title>
+<style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+      padding:20px;
+      align-items: center;
+    }
+    
+    td, th {
+      border: 1px solid #49a4ce;
+      text-align: center;
+      padding: 20px;
+    }
+    
+    tr:nth-child(even) {
+      background-color: #c0edf3;
+    }
+</style>
+</head>
+<body>
+    
+    <div class="header">
+        <div class="head-con">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuDEMmYQoc37X0cfxNxB1t0L_p7GXvTQ_1rhJO6KiXTRFkRSqhFidWdjBtyMEeFTRrzG8&usqp=CAU" alt="">
+        </div>
+        <div class="head-con">
+            <h1> GRAM PANCHAYATH</h1>
+        </div>
+        <div class="head-con">
+
+                    <div class="dropdown">
+                        <button class="dropbtn-2">
+                            <a href="#" class="btn btn-primary"><i class="fa-solid fa-user" style="color:rgb(17, 63, 214)";"></i></a>
+    
+                        </button>
+                        <div class="dropdown-content" id="myDropdown">
+                            <a href="">My profile</a>
+                            <a href="">payment details</a>
+                            <a href="home.html">logout</a>
+                            
+                         
+                        </div>
+                        </div> 
+                </button>
+               
+                </div> 
+        
+            
+        </div>
+    </div>
+    <main class="page-content">
+        <div class="cont1">
+            <h1 style="padding-top:10px; margin-left:90px;"><span class="rainbow">MOBILE BILL PAYMENT DETAILS</span></h1>
+
+          <select name="cars" id="cars" style="color:darkblue;padding:8px;margin-top:10px;margin-left:98px">
+            <option value="" >Select Your Circle</option>
+            <option value="">Andhra Pradesh</option>      
+            <option value="">Telegana</option>      
+            <option value="">TamilNadu</option>      
+            <option value=""> Mumbai</option>      
+            <option value="">Odisha</option>      
+            <option value="">Kerala</option>      
+            <option value="">Karnataka</option>      
+          </select>
+          <select name="cars" id="cars" style="color:darkblue;padding:8px;margin-top:10px;">
+            <option value="" >Select Your operator</option>
+            <option value="">Jio</option>      
+            <option value="">Vodaphone</option>      
+            <option value="">Idea</option>      
+            <option value=""> Airtel</option>      
+            <option value="">BSNL</option>      
+          </select>
+          
+          &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; Enter Phone Number:
+          <input type="text" id="lname" name="lname" placeholder="Enter Phone Number" style="color:darkblue;padding: 8px;">
+        <!-- </select>
+        <select name="cars" id="cars">
+          <option value="">year</option>
+          <option value="">1st</option>
+          <option value="">2nd</option>
+          <option value="">3rd</option>
+          <option value="">4th</option>
+        </select> -->
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+        <button type="button" class="btn btn-secondary" style="color:rgb(6, 6, 19);padding:10px;background-color:blue;align-items:flex-end;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pay&nbsp;&nbsp;&nbsp;&nbsp;</button>
+
+        </div>
+
+        <div class="cont2" style="padding: 30px 100px;">
+
+         
+
+          <table class="table mt-2 table-striped">
+            <thead class="text-white">
+              <tr style="background-color: rgba(93, 93, 255, 0.692);">
+                <th scope="col">SL NO</th>
+                <th scope="col">Name of the person</th>
+                <th scope="col">Phone Number</th>
+                <th scope="col">Prepaid /Postpaid</th>
+                <th scope="col">Last payment Date</th>
+                <th scope="col">Download/View</th> 
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Alexander</td>
+                <td>121317462746428</td>
+                
+                <td>prepaid</td>
+                <td>28/01/2022</td>
+                <td>
+                <button class="btn-sm btn-success"> <i class="fa fa-download" aria-hidden="true"></i> Download</button>
+                <button class="btn-sm btn-primary"> <i class="fa fa-eye"></i> View</button>
+                </td>
+              </tr>
+              
+              <tr>
+                <th scope="row">2</th>
+                <td>Alexander</td>
+                <td>121317462746428</td>
+                
+                <td>prepaid</td>
+                <td>28/04/2022</td>
+                <td>
+                  <button class="btn-sm btn-success"> <i class="fa fa-download" aria-hidden="true"></i> Download</button>
+                  <button class="btn-sm btn-primary"> <i class="fa fa-eye"></i> View</button>
+                </td>
+              </tr>
+              
+              <tr>
+                <th scope="row">3</th>
+                <td>Alexander</td>
+                <td>121317462746428</td>
+                
+                <td>prepaid</td>
+                <td>28/04/2022</td>
+                <td>
+                  <button class="btn-sm btn-success"> <i class="fa fa-download" aria-hidden="true"></i> Download</button>
+                  <button class="btn-sm btn-primary"> <i class="fa fa-eye"></i> View</button>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">4</th>
+                <td>Alexander</td>
+                <td>121317462746428</td>
+                
+                <td>prepaid</td>
+                <td>28/04/2022</td>
+                <td>
+                  <button class="btn-sm btn-success"> <i class="fa fa-download" aria-hidden="true"></i> Download</button>
+                  <button class="btn-sm btn-primary"> <i class="fa fa-eye"></i> View</button>
+                </td>
+              </tr>
+
+             <tr>
+                <th scope="row">5</th>
+                <td>Alexander</td>
+                <td>121317462746428</td>
+                <td>prepaid</td>
+                <td>28/04/2022</td>
+                <td>
+                  <button class="btn-sm btn-success"> <i class="fa fa-download" aria-hidden="true"></i> Download</button>
+                  <button class="btn-sm btn-primary"> <i class="fa fa-eye"></i> View</button>
+                </td>
+              </tr>
+              
+              <tr>
+                <th scope="row">6</th>
+                <td>Alexander</td>
+                <td>121317462746428</td>
+                <td>prepaid</td>
+                <td>28/04/2022</td>
+                <td>
+                  <button class="btn-sm btn-success"> <i class="fa fa-download" aria-hidden="true"></i> Download</button>
+                  <button class="btn-sm btn-primary"> <i class="fa fa-eye"></i> View</button>
+                </td>
+              </tr>
+              
+              <tr>
+                <th scope="row">7</th>
+                <td>Alexander</td>
+                <td>121317462746428</td>
+                <td>prepaid</td>
+                <td>28/04/2022</td>
+                <td>
+                  <button class="btn-sm btn-success"> <i class="fa fa-download" aria-hidden="true"></i> Download</button>
+                  <button class="btn-sm btn-primary"> <i class="fa fa-eye"></i> View</button>
+                </td>
+              </tr>
+
+
+              <tr>
+                <th scope="row">8</th>
+                <td>Alexander</td>
+                <td>121317462746428</td>
+                <td>prepaid</td>
+                <td>28/04/2022</td>
+                <td>
+                  <button class="btn-sm btn-success"> <i class="fa fa-download" aria-hidden="true"></i> downlode</button>
+                  <button class="btn-sm btn-primary"> <i class="fa fa-eye"></i> View</button>
+                </td>
+              </tr>
+              
+              <tr>
+                <th scope="row">9</th>
+                <td>Alexander</td>
+                <td>121317462746428</td>
+                <td>prepaid</td>
+                <td>28/04/2022</td>
+                <td>
+                  <button class="btn-sm btn-success"> <i class="fa fa-download" aria-hidden="true"></i> downlode</button>
+                  <button class="btn-sm btn-primary"> <i class="fa fa-eye"></i> View</button>
+                </td>
+              </tr>
+              
+              <tr>
+                <th scope="row">10</th>
+                <td>Alexander</td>
+                <td>121317462746428</td>
+                <td>prepaid</td>
+                <td>28/04/2022</td>
+                <td>
+                  <button class="btn-sm btn-success"> <i class="fa fa-download" aria-hidden="true"></i> Download</button>
+                  <button class="btn-sm btn-primary"> <i class="fa fa-eye"></i> View</button>
+                </td>
+              </tr>
+
+              <tr>
+                  <th scope="row">11</th>
+                  <td>Alexander</td>
+                  <td>121317462746428</td>
+                  <td>prepaid</td>
+                  <td>28/04/2022</td>
+                  <td>
+                    <button class="btn-sm btn-success"> <i class="fa fa-download" aria-hidden="true"></i> Download</button>
+                    <button class="btn-sm btn-primary"> <i class="fa fa-eye"></i> View</button>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">12</th>
+                  <td>Alexander</td>
+                  <td>121317462746428</td>
+                  <td>prepaid</td>
+                  <td>28/04/2022</td>
+                  <td>
+                    <button class="btn-sm btn-success"> <i class="fa fa-download" aria-hidden="true"></i> Download</button>
+                    <button class="btn-sm btn-primary"> <i class="fa fa-eye"></i> View</button>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">13</th>
+                  <td>Alexander</td>
+                  <td>121317462746428</td>
+                  <td>prepaid</td>
+                  <td>28/04/2022</td>
+                  <td>
+                    <button class="btn-sm btn-success"> <i class="fa fa-download" aria-hidden="true"></i>Download</button>
+                    <button class="btn-sm btn-primary"> <i class="fa fa-eye"></i> View</button>
+                  </td>
+                </tr>
+
+              
+            </tbody>
+          </table>
+        
+    
+        </div>
+
+      </main>
+    <!-- page-content" -->
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+  
+  <!-- Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  <!-- Custom Js -->
+  <script src="{% static 'js/dashboard.js' %}"></script>
+  <script src="{% static 'js/charts.js' %}"></script>
+  </body>
+</html>

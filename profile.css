@@ -1,0 +1,23 @@
+*
+{
+    margin:0%;
+    padding:0%;
+}
+.cont
+{
+    margin-top: 30px;
+ display:flex;
+ border: rgb(90, 61, 249) solid 5px;
+ height: 404px;
+ width: 28%;
+ align-items: center;
+ justify-content: center;
+ background-color:rgb(169, 169, 247);
+ 
+}
+i {
+    font-size: 38px;
+}
+.cont form #icon{
+    size: 30px;
+}
